@@ -30,6 +30,7 @@ a{
 body{
     margin: 0%;
     padding: 0%;
+    background-color: #fdfdff;
 }
 
 #fundo {
@@ -122,5 +123,27 @@ body{
     font-weight: normal;
     text-decoration: none;
     font-family: "Jaldi", sans-serif;
+}
+
+.projects{
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.proj1{
+    background-color: #282766;
+    font-family: "Jaldi", sans-serif;
+    font-size: 10pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 32px;
+    color: #fff;
+    margin: 0px 0px 14px 30px;
+}
+.proj2{
+    background-color: rgb(183, 188, 208);
+    height: 150px;
 }
 
