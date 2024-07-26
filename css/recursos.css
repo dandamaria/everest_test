@@ -1,0 +1,12 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    margin: 130px 20px 0px 20px;
+    width: 90%;
+    height: 100vh;
+    background-color: blue;
+}

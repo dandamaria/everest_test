@@ -8,6 +8,11 @@ a{
     text-decoration: none;    
 }
 
+h1{
+    text-decoration: none;
+    color: #F7F7FF;
+}
+
 /* padding: 0px 0px 0px 0px; /*cima dir baixo esq */ 
 
 :root{
@@ -15,57 +20,6 @@ a{
     --white: #F7F7FF;
     --jaldi: "Jaldi", sans-serif;
 }
-
-/* INÍCIO HEADER */
-  
-.headermain{
-    background-color:var(--darkblue);
-    width: 100%;
-    margin: 0;
-    height: 102px;
-    left: 0px; 
-    right: 0px;
-    top: 0px;
-    position:fixed;
-    
-}
-.topoheader {
-    height: 66px;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    gap: 430px;
-    font-family: var(--jaldi);
-    color: var(--white);
-    font-size: 14px;
-
-}
-
-#logos-header {
-    margin-top: 46px;
-}
-
-.baixoheader{
-    height: 36px;
-    background-color: var(--white);
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
-
-}
-.baixoheader *{
-    text-decoration: none;
-    font-family: var(--jaldi);
-    color: var(--darkblue);
-    font-size: 20px;
-}
-
-/* FIM HEADER */
 
 .nav-menu *{
     color: #fdfdff;
